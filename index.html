@@ -163,6 +163,109 @@
       .smaller-buttons {
         padding: 20px 35px;
       }
+
+      @media (max-width: 1000px) {
+        footer .row {
+          display: block;
+        }
+
+        footer li {
+          margin-bottom: 20px;
+          text-align: center;
+        }
+
+        header {
+          background-color: black;
+          background-image: none;
+          display: block;
+          margin: 50px auto;
+          padding: 30px;
+        }
+
+        header h1 {
+          font-size: 60px;
+        }
+
+        header h2 {
+          display: none;
+        }
+
+        .cards {
+          background-color: white;
+          color: black;
+          display: block;
+          margin: 0;
+          padding: 0 50px;
+        }
+
+        .embeds {
+          padding-bottom: 20px;
+        }
+
+        .footer-right-side {
+          margin-top: 50px;
+          text-align: center;
+        }
+
+        .half-moon-raviolo-drawing {
+          display: none;
+        }
+
+        .main-paragraph {
+          padding: 20px;
+          text-align: center;
+        }
+
+        .more-info {
+          display: block;
+          margin: 0 auto;
+          padding: 100px 20px 0;
+        }
+
+        .more-info p {
+          margin-bottom: 50px;
+        }
+
+        .more-info2 {
+          display: block;
+          margin: 0 auto;
+          padding: 100px 20px;
+          text-align: center;
+        }
+
+        .more-info2 p {
+          margin-top: 50px;
+        }
+
+        .more-info-buttons {
+          background-color: black;
+          color: white;
+          margin: 20px;
+          padding: 0;
+        }
+
+        .more-info-buttons a:visited {
+          background-color: black;
+          color: white;
+        }
+
+        .photos-button {
+          display: none;
+        }
+
+        .pictures {
+          display: none;
+        }
+
+        .potato-drawing {
+          display: none;
+        }
+
+        .shapes {
+          padding: 0;
+          text-align: center;
+        }
+      }
     </style>
   </head>
   <body>
@@ -182,7 +285,7 @@
         >
         <a
           href="#photos"
-          class="more-info-buttons smaller-buttons"
+          class="more-info-buttons smaller-buttons photos-button"
           title="Photos button"
           >photos</a
         >
@@ -208,7 +311,7 @@
           <p>
             Depending on the area and the filling ravioli can have different
             shapes. From square to round to half-moon, triangle and ring, with
-            some unique ones like Culurgionis (last on the right).
+            some unique ones like Culurgionis (last drawing).
           </p>
         </div>
         <div class="col">
@@ -216,27 +319,27 @@
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/013/original/Ravioli-02.png?1693255031"
               alt="Square-shaped Italian dumplings"
-              class="p-1"
+              class="p-1 img-fluid"
             />
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/015/original/Ravioli-03.png?1693255073"
               alt="Half-moon shaped Italian dumplings"
-              class="p-1"
+              class="p-1 img-fluid half-moon-raviolo-drawing"
             />
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/016/original/Ravioli-04.png?1693255077"
               alt="Round-shaped Italian dumplings"
-              class="p-1"
+              class="p-1 img-fluid"
             />
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/017/original/Ravioli-05.png?1693255081"
               alt="Ring-shaped Italian dumplings"
-              class="p-1"
+              class="p-1 img-fluid"
             />
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/018/original/Ravioli-06.png?1693255086"
               alt="Cute shaped Italian dumplings"
-              class="p-1"
+              class="p-1 img-fluid"
             />
           </div>
         </div>
@@ -248,27 +351,27 @@
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/026/original/Ravioli-filling-02.png?1693256019"
               alt="Meat"
-              class="p-1"
+              class="p-1 img-fluid"
             />
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/007/original/Ravioli-filling-03.png?1693254716"
               alt="Pumpkin"
-              class="p-1"
+              class="p-1 img-fluid"
             />
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/008/original/Ravioli-filling-04.png?1693254722"
               alt="Spinach and ricotta"
-              class="p-1"
+              class="p-1 img-fluid"
             />
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/009/original/Ravioli-filling-05.png?1693254745"
               alt="Fish"
-              class="p-1"
+              class="p-1 img-fluid"
             />
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/010/original/Ravioli-filling-06.png?1693254751"
               alt="Potato"
-              class="p-1"
+              class="p-1 img-fluid potato-drawing"
             />
           </div>
         </div>
@@ -321,19 +424,19 @@
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/970/original/closeup-shot-delicious-ravioli.jpg?1693247511"
             alt="Round ravioli in a plate"
-            class="me-5 mb-5"
+            class="me-5 mb-5 img-fluid"
             width="300px"
           />
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/971/original/closeup-tasty-italian-ravioli.jpg?1693247520"
             alt="Square ravioli with tomato sauce"
-            class="me-5 mb-5"
+            class="me-5 mb-5 img-fluid"
             width="300px"
           />
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/978/original/top-view-delicious-food-concept.jpg?1693247581"
             alt="Square ravioli in a black plate"
-            class="mb-5"
+            class="mb-5 img-fluid"
             width="300px"
           />
         </div>
@@ -341,19 +444,19 @@
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/973/original/minimalist-flat-lay-black-ravioli-plate.jpg?1693247546"
             alt="Black ravioli in a black plate with black background"
-            class="me-5 mb-5"
+            class="me-5 mb-5 img-fluid"
             width="300px"
           />
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/977/original/tasty-ravioli-pasta-green-ceramic-plate.jpg?1693247574"
             alt="Round ravioli with tomatoes and herbs"
-            class="me-5 mb-5"
+            class="me-5 mb-5 img-fluid"
             width="300px"
           />
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/974/original/pasta-yummy-comida-lifestyle-gastronomy.jpg?1693247553"
             alt="Cappelletti with cream"
-            class="mb-5"
+            class="mb-5 img-fluid"
             width="300px"
           />
         </div>
@@ -361,13 +464,13 @@
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/965/original/ravioli-with-vegetables-cheese.jpg?1693241313"
             alt="Cappelletti with tomatoes and rocket"
-            class="me-5"
+            class="me-5 img-fluid"
             width="300px"
           />
           <img
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/976/original/spinach-ricotto-ravioli-with-parmesan-cheese-sundried-tomatoes-arugula.jpg?1693247566"
             alt="Small ravioli with tomatoes and herbs"
-            class="me-5"
+            class="me-5 img-fluid"
             width="300px"
           />
           <img
